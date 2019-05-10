@@ -17,9 +17,13 @@ function setup() {
 }
 
 function draw() {
+
   background(220);
+  
   rect(xo, yo, 40, 40);
+  
   xo=xo+4;
+  
   if(xo > 500){
      xo = -random(1000);
     console.log(xo);
@@ -37,9 +41,13 @@ function draw() {
 Etapa 04 - *Fazendo a projeção do tiro...*
 
 var x = 100;
+
 var y = 100;
+
 var v = 15
+
 var xd = 0;
+
 var yd = 0;
 
 var estadoDisparo = false
@@ -52,6 +60,7 @@ function setup() {
 
 function draw() {
   background(220);
+  
   if(keyIsDown(LEFT_ARROW))
     x-=v;
   
@@ -65,11 +74,13 @@ function draw() {
     y+=v
 
   ellipse(x,y,50,50)
+  
   if(keyIsDown( CONTROL ) && estadoDisparo == false ){
     xd = x
     yd = y
     estadoDisparo = true
 }
+
   if (estadoDisparo == true){
   ellipse(xd, yd, 4, 4);
     yd = yd - 10;
