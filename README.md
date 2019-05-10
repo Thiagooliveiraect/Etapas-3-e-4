@@ -1,8 +1,11 @@
 # Etapas-3-e-4
 
 EQUIPE:
+
 Aluno: Thiago Souza de Oliveira
+
 Aluno: MOISES SIQUEIRA DE ALCANTARA
+
 
 Eatapa 03 - *Aparecimento aleatório do objeto assim que toca a extremidade direita da tela de saída*
 
