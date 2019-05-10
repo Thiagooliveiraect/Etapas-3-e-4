@@ -2,10 +2,13 @@
 
 EQUIPE:
 Aluno: Thiago Souza de Oliveira
-Aluno: ***
+Aluno: MOISES SIQUEIRA DE ALCANTARA
 
 Eatapa 03 - *Aparecimento aleatório do objeto assim que toca a extremidade direita da tela de saída*
-/////////////////////////////////////////////////////////////
+
+
+
+
 var xo = 0;
 var yo = 50;
 
@@ -23,9 +26,16 @@ function draw() {
   }
   
 }
-//////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
 Etapa 04 - *Fazendo a projeção do tiro...*
-/////////////////////////////////////////////////////////////
+
 var x = 100;
 var y = 100;
 var v = 15
@@ -69,4 +79,4 @@ function draw() {
     
 }
 }
-////////////////////////////////////////////////////////////////
+
